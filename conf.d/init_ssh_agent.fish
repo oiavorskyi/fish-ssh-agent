@@ -1,4 +1,4 @@
-if ps -ef | grep $SSH_AGENT_PID | grep -v grep | grep ssh-agent
+if test -n "$SSH_AGENT_PID"
     __test_ssh_identities
 else
     __start_ssh_agent
