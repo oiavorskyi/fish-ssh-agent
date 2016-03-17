@@ -1,5 +1,5 @@
 # fish-ssh-agent
-Autostart ssh-agent function for the fish shell.
+Autostart ssh-agent function for fish.
 
 ## Functionality
 
